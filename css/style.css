@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: Arial;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    display: block;
+}
+
+.Contenedor{
+    
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    background: #eeeeee;
+    padding: 10px;
+    
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.Tittle h1, .Tittle h2{
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Tittle h2{
+    font-size: 17px;
+}
+
+
+.ImageDescription{
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.ImageDescription h2{
+    font-size: 15px
+}
+
+.List{
+    width: 70%;
+    margin: auto;
+    
+}
+
+.List h4{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.List ul li{
+    padding-bottom: 10px;
+}
+
+
+
+
+.Quote{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+.Quote p{
+    
+    padding-bottom: 10px;
+    
+}
+
+.Foot{
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
